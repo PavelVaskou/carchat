@@ -8,8 +8,24 @@
 
 import Foundation
 import UIKit
+import UIWindowTransitions
 
 
 class AuthViewController: UIViewController {
     
+    @IBAction func signInAction(_ sender: Any) {
+        
+        guard let vc =  Storyboard.main.instance.instantiateInitialViewController() else {
+            return
+        }
+        
+        guard let window = UIApplication.shared.keyWindow else {
+            return
+        }
+        
+        var options = UIWindow.TransitionOptions()
+        options.duration = 0.45
+        options.direction = .toBottom
+        window.setRootViewController(vc, options: options)
+    }
 }

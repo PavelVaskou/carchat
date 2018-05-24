@@ -1,0 +1,16 @@
+PODS:
+  - UIWindowTransitions (0.1.1)
+
+DEPENDENCIES:
+  - UIWindowTransitions
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UIWindowTransitions
+
+SPEC CHECKSUMS:
+  UIWindowTransitions: 95836d4d85b824227909ada40a2cbf885eb26c69
+
+PODFILE CHECKSUM: 07bf68167a1bfa8f76ff47f181c710865aa60114
+
+COCOAPODS: 1.5.0

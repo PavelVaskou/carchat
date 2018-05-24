@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D9399CF263A19228F1CE910 /* Pods_CarChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576B8E14139AD550C5669355 /* Pods_CarChatTests.framework */; };
+		96A17F9A03BCA41CC1C73DCB /* Pods_CarChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F61B54A9AFE447DFD395DB /* Pods_CarChat.framework */; };
 		C82C546720B6E545000FAEA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C546620B6E545000FAEA0 /* AppDelegate.swift */; };
 		C82C546920B6E545000FAEA0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C546820B6E545000FAEA0 /* FirstViewController.swift */; };
 		C82C546B20B6E545000FAEA0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C546A20B6E545000FAEA0 /* SecondViewController.swift */; };
@@ -34,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1179A9AC5615D2038D345366 /* Pods-CarChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarChatTests/Pods-CarChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13F61B54A9AFE447DFD395DB /* Pods_CarChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576B8E14139AD550C5669355 /* Pods_CarChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3F501EC002F46B131E6607 /* Pods-CarChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarChat/Pods-CarChat.release.xcconfig"; sourceTree = "<group>"; };
+		B703059CBF98393D52450C32 /* Pods-CarChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarChat/Pods-CarChat.debug.xcconfig"; sourceTree = "<group>"; };
 		C82C546320B6E544000FAEA0 /* CarChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82C546620B6E545000FAEA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C82C546820B6E545000FAEA0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		C82C549420B6F99B000FAEA0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C82C549620B6FFF2000FAEA0 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		C82C549920B702D9000FAEA0 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		E3FF5A69C873F06429E73F70 /* Pods-CarChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarChatTests/Pods-CarChatTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A17F9A03BCA41CC1C73DCB /* Pods_CarChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,18 +75,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9399CF263A19228F1CE910 /* Pods_CarChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BA4AB3FC6592515AB5D663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F61B54A9AFE447DFD395DB /* Pods_CarChat.framework */,
+				576B8E14139AD550C5669355 /* Pods_CarChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C70F263EA694CDCB6DE0F6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B703059CBF98393D52450C32 /* Pods-CarChat.debug.xcconfig */,
+				6B3F501EC002F46B131E6607 /* Pods-CarChat.release.xcconfig */,
+				1179A9AC5615D2038D345366 /* Pods-CarChatTests.debug.xcconfig */,
+				E3FF5A69C873F06429E73F70 /* Pods-CarChatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C82C545A20B6E544000FAEA0 = {
 			isa = PBXGroup;
 			children = (
 				C82C546520B6E544000FAEA0 /* CarChat */,
 				C82C547C20B6E547000FAEA0 /* CarChatTests */,
 				C82C546420B6E544000FAEA0 /* Products */,
+				2C70F263EA694CDCB6DE0F6B /* Pods */,
+				01BA4AB3FC6592515AB5D663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C82C548220B6E547000FAEA0 /* Build configuration list for PBXNativeTarget "CarChat" */;
 			buildPhases = (
+				0901B5AAC3D097408E0DB000 /* [CP] Check Pods Manifest.lock */,
 				C82C545F20B6E544000FAEA0 /* Sources */,
 				C82C546020B6E544000FAEA0 /* Frameworks */,
 				C82C546120B6E544000FAEA0 /* Resources */,
+				6B8FA1466657CB0563754E37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C82C548520B6E547000FAEA0 /* Build configuration list for PBXNativeTarget "CarChatTests" */;
 			buildPhases = (
+				F9A137A4A0943CE60FABB86D /* [CP] Check Pods Manifest.lock */,
 				C82C547520B6E547000FAEA0 /* Sources */,
 				C82C547620B6E547000FAEA0 /* Frameworks */,
 				C82C547720B6E547000FAEA0 /* Resources */,
@@ -256,6 +291,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0901B5AAC3D097408E0DB000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8FA1466657CB0563754E37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarChat/Pods-CarChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UIWindowTransitions/UIWindowTransitions.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIWindowTransitions.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarChat/Pods-CarChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A137A4A0943CE60FABB86D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C82C545F20B6E544000FAEA0 /* Sources */ = {
@@ -363,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -428,14 +520,13 @@
 		};
 		C82C548320B6E547000FAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B703059CBF98393D52450C32 /* Pods-CarChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarChat/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pvaskou.CarChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +536,13 @@
 		};
 		C82C548420B6E547000FAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3F501EC002F46B131E6607 /* Pods-CarChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarChat/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pvaskou.CarChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +552,13 @@
 		};
 		C82C548620B6E547000FAEA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1179A9AC5615D2038D345366 /* Pods-CarChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarChatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pvaskou.CarChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +569,13 @@
 		};
 		C82C548720B6E547000FAEA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FF5A69C873F06429E73F70 /* Pods-CarChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CarChatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pvaskou.CarChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
