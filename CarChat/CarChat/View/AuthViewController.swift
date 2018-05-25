@@ -24,7 +24,7 @@ class AuthViewController: UIViewController {
         }
         
         var options = UIWindow.TransitionOptions()
-        options.duration = 0.45
+        options.duration = 0.33
         options.direction = .toBottom
         window.setRootViewController(vc, options: options)
     }
